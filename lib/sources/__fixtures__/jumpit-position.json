@@ -1,0 +1,32 @@
+{
+  "_note": "점핏 /api/position/{id} 실제 응답 구조를 본뜬 살균(sanitized) fixture. 값은 플레이스홀더 — 실제 공고 데이터를 공개 재배포하지 않기 위함(plan.md §5). 구조/키/타입은 실제와 동일.",
+  "message": "조회에 성공하셨습니다.",
+  "status": 200,
+  "code": "C001",
+  "result": {
+    "id": 12345678,
+    "title": "테스트 백엔드 개발자",
+    "companyName": "테스트컴퍼니",
+    "techStacks": [
+      { "stack": "Java", "imagePath": "https://example.com/x.png" },
+      { "stack": "Spring", "imagePath": "https://example.com/y.png" }
+    ],
+    "serviceInfo": "테스트 서비스 소개 텍스트.",
+    "responsibility": "주요업무 내용 텍스트.",
+    "qualifications": "자격요건 내용 텍스트.",
+    "preferredRequirements": "우대사항 내용 텍스트.",
+    "welfares": "복지 내용 텍스트.",
+    "recruitProcess": "전형절차 텍스트.",
+    "newcomer": false,
+    "minCareer": 3,
+    "maxCareer": 7,
+    "publishedAt": "2026-07-06 00:00:00",
+    "closedAt": "2026-08-04 23:59:59",
+    "location": "서울 강남구",
+    "tags": [{ "id": "1", "name": "급성장", "emoticon": "invest" }],
+    "jobCategories": [{ "id": 8, "name": "서버/백엔드" }],
+    "workingPlaces": [{ "address": "서울 강남구", "domestic": false }],
+    "alwaysOpen": false,
+    "positionStatus": "CHECKED"
+  }
+}
